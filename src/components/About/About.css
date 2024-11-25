@@ -1,0 +1,53 @@
+.about {
+    background-color: rgb(246 244 240);
+    width: 60%;
+    padding: 4rem;
+    margin: 3rem auto;
+    text-align: center;
+    font-family: monospace;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.about-tit {
+    color: rgb(56 13 7);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.list {
+    text-align: left;
+    column-count: 2;
+    font-size: 1.25rem;
+    margin: 2rem 3rem;
+    gap: 3rem;
+}
+
+@media screen and (max-width: 800px) {
+    .about {
+        padding: 2rem;
+    }
+
+    section.padding {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .about {
+        width: 77%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .list {
+        column-count: 1;
+        margin: 0;
+    }
+    .about{
+        padding: 1rem;
+    }
+    p.large{
+        font-size: 16px;
+    }
+}
